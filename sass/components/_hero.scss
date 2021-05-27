@@ -1,0 +1,33 @@
+.hero-section {
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/bcg-img/Img-bg.jpg);
+}
+
+.hero {
+  padding-bottom: 94px;
+}
+
+.hero-section {
+  max-width: 1600px;
+  /* outline: 2px solid tomato; */
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--secondary-background);
+}
+
+.hero__title {
+  color: var(--white-text-color);
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 30px;
+}

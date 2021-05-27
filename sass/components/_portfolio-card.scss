@@ -1,0 +1,24 @@
+.list-btn {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio__title {
+  margin: 0;
+  margin-bottom: 2px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+.portfolio__text {
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--link-text-color);
+}
