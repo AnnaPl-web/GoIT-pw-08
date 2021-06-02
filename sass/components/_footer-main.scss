@@ -5,12 +5,40 @@
 }
 
 .footer__inform {
-  margin-right: 70px;
+  @media screen and (min-width: 60px) and (max-width: 767.9px) {
+    padding-bottom: 60px;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199.9px) {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 60px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-right: 70px;
+  }
 }
 
 .footer__main {
   display: flex;
-  align-items: center;
+
+  @media screen and (min-width: 60px) and (max-width: 767.9px) {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199.9px) {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  @media screen and (min-width: 1200px) {
+  }
 }
 
 .footer__logo {
@@ -23,10 +51,31 @@
   font-size: 26px;
   line-height: 1.19;
   margin-bottom: 20px;
+
+  @media screen and (min-width: 60px) and (max-width: 767.9px) {
+    align-items: center;
+    text-align: center;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199.9px) {
+  }
+
+  @media screen and (min-width: 1200px) {
+  }
 }
 
 .footer__address {
   font-style: inherit;
+  @media screen and (min-width: 60px) and (max-width: 767.9px) {
+    align-items: center;
+    text-align: center;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199.9px) {
+  }
+
+  @media screen and (min-width: 1200px) {
+  }
 }
 
 .footer__auth {
@@ -42,8 +91,19 @@
   }
 }
 
-.footer__item:not(:last-child) {
-  margin-bottom: 9px;
+.footer__item {
+  @media screen and (min-width: 60px) and (max-width: 767.9px) {
+    margin-bottom: 8px;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199.9px) {
+  }
+
+  @media screen and (min-width: 1200px) {
+    &:not(:last-child) {
+      margin-bottom: 9px;
+    }
+  }
 }
 
 .footer__address-text {
@@ -54,4 +114,15 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+
+  @media screen and (min-width: 60px) and (max-width: 767.9px) {
+    align-items: center;
+    text-align: center;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199.9px) {
+  }
+
+  @media screen and (min-width: 1200px) {
+  }
 }
